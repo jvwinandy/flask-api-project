@@ -1,7 +1,10 @@
-API REST feita em Python3, usando flask e SQLAlchemy para trabalhar com dados de uma tabela de demandas, 
-com todos os métodos CRUD.
+API REST feita em Python3, usando flask e SQLAlchemy para trabalhar com dados de uma tabela de demandas (reclamações)
+de empresas de saúde, contendo todos as operações CRUD
 
-Para baixar os dados é necessário usar git lfs.
+Para baixar os dados é necessário usar **git lfs**, ou baixar os dados csv no link: 
+https://dadosabertos.ans.gov.br/FTP/PDA/IGR/dados-gerais-das-reclamacoes/ e inserir na pasta raw_data.
+
+Fonte dos dados: https://dados.gov.br/dados/conjuntos-dados/indice-geral-de-reclamacoes---igr-metodologia-ate-2022 - Dados gerais das Reclamações
 
 ## How to Build And Run
 ### Build:
