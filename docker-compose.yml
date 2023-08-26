@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  flask-api:
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app:/app
+    build:
+        context: .
+    environment:
+      - PYTHONPATH=/src

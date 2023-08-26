@@ -1,0 +1,1 @@
+from flask_api.db.models.demanda import Demanda
